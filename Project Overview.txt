@@ -1,0 +1,13 @@
+1)Install emails library .(!pip install emails to download from jupyter notebook or pip install emails to download via anacondapromt)
+
+2)Simple Mail Transfer Protocol (SMTP) server has used .(many open smtp servers are avilable in the internet or use gmail (I used gmail as smtp)).
+
+3)I wrote the body of the mail in HTML text and stored in email_text.
+
+4)subject can be differnt.
+
+5) semEmail(email): I crated this function to send the email to someone.The parameter email contains the email address whom I want to send the email.
+		    stmp.gmail.com is the is the smtp server for gmail. 'user' is sender's email id , it can be different.
+
+6) status_code returns a value 250. If it returns 250 it indicates the message has sent successfully .(if you don't give any valid email id you will not get 
+	250 as output . I tried it with valid email id got 250 as output, then I changed the email id and password) .
